@@ -1,0 +1,19 @@
+---
+title: "Introduction to R"
+author: "Nayad"
+date: "2024-08-14"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+
+```{r}
+A = 10
+B = 20
+A + B
+```
+
+
+
