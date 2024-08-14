@@ -15,5 +15,20 @@ B = 20
 A + B
 ```
 
+# Data Structures in R
 
+## Vectors
+
+```{r}
+names <- c("Nayad", "John", "James", "Andy", "George")
+age <- c(20, 25, 27, 30, 31)
+names (age) <- names
+age ["Nayad"]
+age [2]# indexing
+age[3:5]
+age [c(3,5)]# slicing
+```
+## Matrix
+## List
+## Data Frames
 
