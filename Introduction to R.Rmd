@@ -29,7 +29,32 @@ age [2]# indexing
 age[3:5]
 age [c(3,5)]# slicing
 ```
+### Factors
+
+```{r}
+height <- c("high", "low", "mid", "low", "high")
+height1 <- factor(height, levels = c("low", "mid", "high"))
+height1
+```
+
 ## Matrix
+```{r}
+math <- c(70, 85, 92)
+english <- c(65, 74, 82)
+social_studies <- c(56, 85, 75)
+
+lessons <- matrix(c(math, english, social_studies), nrow = 3, byrow = TRUE)
+lessons
+rownames(lessons) <- c("math", "english", "social_studies")
+colnames(lessons) <- c("term1", "term2", "term3")
+lessons
+colSums(lessons)
+lessons1 <- rbind(lessons, colSums(lessons))
+lessons2 <- cbind(lessons1, rowMeans(lessons1))
+lessons2
+
+```
+
 ## List
 ## Data Frames
 
