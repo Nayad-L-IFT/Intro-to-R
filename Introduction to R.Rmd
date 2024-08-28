@@ -56,5 +56,43 @@ lessons2
 ```
 
 ## List
+
+```{r}
+
+names <- c("Frank", "James", "Hanna", "Aman", "Lisa")
+age <- c(24, 30, 27, 15, 21)
+employed <- c(TRUE, TRUE, FALSE, FALSE, TRUE)
+
+my_list <- list(names = names, age = age, employed = employed)
+
+
+my_list$names[1]
+my_list[1, 1]
+
+my_list
+```
+
+
 ## Data Frames
+
+```{r}
+```
+
+
+```{r}
+df <- data.frame(names = names, age = age)
+df
+```
+
+```{r}
+library(readr)
+Iris <- read_csv("Iris.csv")
+```
+
+
+```{r}
+library(readxl)
+Iris <- read_excel("Iris.xlsx", sheet = "Iris")
+head(Iris)
+```
 

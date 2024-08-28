@@ -1,0 +1,11 @@
+---
+title: "Dplyr, control flows, functions"
+author: "Nayad"
+date: "2024-08-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
