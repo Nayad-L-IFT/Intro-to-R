@@ -52,7 +52,8 @@ colSums(lessons)
 lessons1 <- rbind(lessons, colSums(lessons))
 lessons2 <- cbind(lessons1, rowMeans(lessons1))
 lessons2
-
+math_lessons <- lessons[1, ]
+math_lessons
 ```
 
 ## List
