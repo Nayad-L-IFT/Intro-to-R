@@ -68,7 +68,6 @@ my_list <- list(names = names, age = age, employed = employed)
 
 
 my_list$names[1]
-my_list[1, ]
 
 my_list
 ```
@@ -84,7 +83,7 @@ planets <- c("mercruy", "venus", "earth", "mars")
 type <- c("uninhabitable", "unhabitable", "inhabitable", "uninhabitable")
 number <- c(1, 2, 3, 4)
 df2 <- data.frame(planets = planets, type = type, number = number)
-df2
+df2[1,  ]
 ```
 
 ```{r}
