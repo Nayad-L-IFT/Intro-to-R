@@ -9,3 +9,10 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## The dplyr package provides a set of functions for data manipulation, including:
+
+select(): Selects columns from a data frame.
+filter(): Filters rows based on conditions.
+mutate(): Creates new columns or modifies existing ones.
+summarize(): Summarizes data, often used with group_by().
+arrange(): Sorts data.
