@@ -15,4 +15,4 @@ select(): Selects columns from a data frame.
 filter(): Filters rows based on conditions.
 mutate(): Creates new columns or modifies existing ones.
 summarize(): Summarizes data, often used with group_by().
-arrange(): Sorts data.
+arrange(): Sorts data. 
